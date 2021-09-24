@@ -1,0 +1,88 @@
+@import url
+("https://fonts.googleapis.com/css2? family = Roboto & display = swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 24px;
+}
+.cabeçalho {
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+}
+.perfil {
+  display: flex;
+
+}
+.imagem {
+  border-radius: 400px;
+  max-height: 100px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-wegth: 700;
+  font-size: 26px;
+}
+.titulo h3 {
+  font-wegth: 400;
+  font-size: 14px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-wegth: 400px;
+  padding:8px 16px;
+  border-radius: 16px;
+  background: #ecf4ff;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-itens: center;
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%); 
+  border-radius: 16px;
+  margin: 40px;
+  color: White;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+  font-size: 19px;
+}
+.names {
+  color: White;
+}
+.names1 {
+  color: White;
+}
+.names2 {
+  color: White;
+}
+.names3 {
+  color: White;
+}
+.names4 {
+  color: White;
+}
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+.dark .tema button {
+  background: #1c1c1c;
+  color: white;
+}
